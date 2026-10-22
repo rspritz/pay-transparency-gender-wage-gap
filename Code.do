@@ -1,19 +1,18 @@
 **********************************************************************************
 * Author: Rebecca Spritzer
-* Project: MSc Dissertation
 **********************************************************************************
 
 clear all
 
-global project_data "/Users/rebeccaspritzer/Desktop/Files/Ireland/Trinity/MSc/Thesis/MSc Dissertation Data and Do File_Rebecca Spritzer"
-global project_tables "/Users/rebeccaspritzer/Desktop/Files/Ireland/Trinity/MSc/Thesis/MSc Dissertation Data and Do File_Rebecca Spritzer"
-global project_graphs "/Users/rebeccaspritzer/Desktop/Files/Ireland/Trinity/MSc/Thesis/MSc Dissertation Data and Do File_Rebecca Spritzer"
-global project_sumstats "/Users/rebeccaspritzer/Desktop/Files/Ireland/Trinity/MSc/Thesis/MSc Dissertation Data and Do File_Rebecca Spritzer"
+global project_data "/Users/rebeccaspritzer/Desktop/Files"
+global project_tables "/Users/rebeccaspritzer/Desktop/Files"
+global project_graphs "/Users/rebeccaspritzer/Desktop/Files"
+global project_sumstats "/Users/rebeccaspritzer/Desktop/Files"
 
 
 cd "$project_data"
 
-use MSc_Dissertation_Clean_Data.dta, replace
+use clean_data.dta, replace
 
 *-----------------------------------------------------------------------------------------------*
 ************************************************************************************************
